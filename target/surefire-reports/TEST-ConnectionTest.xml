@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="ConnectionTest" time="3.288" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ConnectionTest" time="3.096" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
     <property name="java.vm.version" value="25.73-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tgxt3353\Desktop\tmp\walethub\web_monitoring"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tgxt3353\Desktop\tmp\walethub\git\web_monitoring"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\tgxt3353\Desktop\tmp\walethub\web_monitoring"/>
+    <property name="user.dir" value="C:\Users\tgxt3353\Desktop\tmp\walethub\git\web_monitoring"/>
     <property name="java.runtime.version" value="1.8.0_73-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ConnectionTest" name="testSuccessPost" time="0.862"/>
-  <testcase classname="ConnectionTest" name="testSuccessGet" time="0.128"/>
-  <testcase classname="ConnectionTest" name="testFaliureGet" time="1.188"/>
-  <testcase classname="ConnectionTest" name="testFaliurePost" time="1.11"/>
+  <testcase classname="ConnectionTest" name="testSuccessPost" time="0.775"/>
+  <testcase classname="ConnectionTest" name="testSuccessGet" time="0.097"/>
+  <testcase classname="ConnectionTest" name="testFaliureGet" time="1.096"/>
+  <testcase classname="ConnectionTest" name="testFaliurePost" time="1.128"/>
 </testsuite>

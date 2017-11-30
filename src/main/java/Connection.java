@@ -20,6 +20,7 @@ public class Connection {
     public  int getStatus() {
         int code = -1;
         try {
+            connection.disconnect();
             connection.connect();
             code = connection.getResponseCode();
             return code;

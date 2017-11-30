@@ -24,5 +24,14 @@ public class ConfigrationTest {
      Assert.assertNotNull(configration.getUrl());
      Assert.assertNotNull(configration.getPeriodInMilSeconds());
     }
+    @Test
+    public void testConfigurationAfterPassingParams() throws Exception
+    {
+        configration=new Configuration(new String[]{"url=http://localhost:9090/","method=POST","seconds=5","errormessage=test"});
+        Assert.assertEquals(configration.getUrl(),"http://localhost:9090/");
+        Assert.assertEquals(configration.getMethod(),"POST");
+        Assert.assertEquals(configration.getPeriodInMilSeconds(),5000);
+        Assert.assertEquals(configration.getErrorMessage(),"test");
+    }
 
 }
